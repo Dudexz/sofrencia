@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Atividade de Programaçao Web</title>
+  <link href="estilo.css" rel="styleshet">
+</head>
+<body>
+
+<div classe="caixa">
+  
+  <img src="imagem/TodososCantos" width="200px"> 
+
+
+ <div>
+
+  <audio controls>
+    <source src="caminho/para/musica1.mp3" type="audio/mpeg">
+    </audio>
+  </div>
+
+  <h1>Marilia Mendonça</h1>
+
+  <div class="item_pl"> 
+    <h3 class="musica_nome">CIUMEIRA</h3>
+    <img src="imagem/ciumeira" width="70px">
+   
+  </div>
+
+  <div class="item_pl">
+    <h3 class="musica_nome">Graveto</h3>
+  <img src="imagem/graveto" width="70px">
+ 
+  </div>
+  
+    <div class="item_pl">
+      <h3 class="musica_nome">Serenata</h3>
+      <img src="imagem/serenata" width="70px">
+     
+      </div>
+  
+
+
+    </ul>
+
+
+
+</body>
+</html>
