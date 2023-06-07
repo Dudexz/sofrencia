@@ -1,3 +1,7 @@
-h2{
-  text-align: center;
-} 
+body{
+    text-align: center; 
+    background-color: rgb(231, 206, 231);
+    }
+    #div {
+      background-color: blue;
+    }
