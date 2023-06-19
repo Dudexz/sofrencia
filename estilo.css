@@ -1,7 +1,12 @@
 body{
-    text-align: center; 
-    background-color: rgb(231, 206, 231);
+    background-color: rgb(228, 217, 211);
     }
     #div {
       background-color: blue;
     }
+div{text-align: center;
+}
+
+audio {
+  width: 250px;
+}
