@@ -2,15 +2,16 @@
 function play(){
     if(confirm("tocar")){}
 }
-function curtir(){
-    if(confirm("curtir")){}
+function proxima(){
+    if(confirm("proxima")){}
 }
-
+const pause= document.querySelector("#pause")
+const musica2= document.querySelector("#musica2")
 const ciumeira=document.querySelector("#ciumeira")
-const outra=document.querySelector("#proxima")
+const outra=document.querySelector("#passar")
 const audio= []
 audio.push(ciumeira)
-audio.push(outra)
+audio.push(musica2)
 var indiceAtual=0
 
 function pausar(){
@@ -20,9 +21,16 @@ function pausar(){
 function player(){
     audio[indiceAtual].play() 
 }
-function proxima(){
-    if(confirm("outra")){}
-    audio[indiceAtual].pausar()
-    indiceAtual=indiceAtual + 1
-    audio[indiceAtual].player()
+function passar(){
+    audio[indiceAtual].pause()
+    indiceAtual ++
+    if(indiceAtual>=audio.length)
+    audio[indiceAtual].play()
+}
+
+function voltar(){
+    audio[indiceAtual].pause()
+    indiceAtual = indiceAtual -1
+
+    audio[indiceAtual].play()
 }
