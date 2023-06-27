@@ -6,6 +6,9 @@ const porteiro=document.querySelector("#porteiro")
 const traicao=document.querySelector("#traicao")
 const conspiracao=document.querySelector("#conspiracao")
 const completa=document.querySelector("#completa")
+const moleque=document.querySelector("#moleque")
+const coracao=document.querySelector("#coracao")
+
 const audio= []
 audio.push(ciumeira)
 audio.push(Graveto)
@@ -13,6 +16,8 @@ audio.push(porteiro)
 audio.push(traicao)
 audio.push(conspiracao)
 audio.push(completa)
+audio.push(moleque)
+audio.push(coracao)
 var indiceAtual=0
 
 function pausar(){
